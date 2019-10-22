@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  love-my-movies:
+    image: love-my-movies
+    build: .
+    ports:
+      - 3000:3000
