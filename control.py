@@ -1,9 +1,19 @@
 from flask import Flask, jsonify, render_template, request
-import yaml, os 
+import os, optparse, sys
+import json
+import requests
+from tmdbv3api import TMDb
+from tmdbv3api import Movie
+
 app = Flask(__name__)
 
 environment=os.getenv("ENVIRONMENT","development")
 info = {}
+tmdb = TMDb()
+tmdb.api_key = '9083cbdd7f380052de7a54baf7d4983b'
+
+movie = Movie()
+popular = movie.popular()
 
 @app.route("/")
 def about():
