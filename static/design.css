@@ -22,7 +22,7 @@ background: linear-gradient(162.83deg, #2561F4 6.03%, #48D3F2 97.94%, #628CF9 97
  width: 100%;
  height: 55%;
  padding: 5% 10% 5% 4%;
- overflow: scroll;   
+ overflow: fixed;   
 }
 
 .overall
@@ -37,4 +37,5 @@ background: linear-gradient(162.83deg, #2561F4 6.03%, #48D3F2 97.94%, #628CF9 97
     float: left;
     margin-left: 2%;
     overflow: scroll; 
+}
 

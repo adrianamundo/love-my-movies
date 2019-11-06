@@ -167,19 +167,18 @@ p {
 }
 
 .what-we-do .list-item .icon {
-  margin-top: 20px;
   width: 45px;
-  height: 20px;
-  border-radius: 20%;
+  height: 10px;
+  border-radius: 10%;
   display: inline-block;
   text-align: start;
-  line-height: 20px;
+  line-height: 10px;
   background-color: transparent;
 }
 
 .what-we-do .list-item h4 {
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;

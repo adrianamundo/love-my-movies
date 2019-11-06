@@ -1,0 +1,2 @@
+Git tag:
+https://github.com/adrianamundo/love-my-movies/releases/tag/v1.1
