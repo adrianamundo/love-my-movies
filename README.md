@@ -110,7 +110,7 @@ Which gave me [trending_movies.json](trending_movies.json)
 - [x] CI/CD (you can use GithubActions (beta) / Gitlab CI /Travis/ Circle CI)
 - [ ] Dockerfile with a valid docker build & push to a valid Docker Hub repository.
 - [x] A good html/css layout of your own.
-- [ ] Modularize everything with files and functions.
+- [x] Modularize everything with files and functions.
 - [ ] Use javascript to "Click and show more details of the movie"
 - [ ] IT WILL NOT RUN under python, but Docker, you must provide under the [README's Usage](#usage) how to run it using Docker commands
 
