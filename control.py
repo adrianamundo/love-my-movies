@@ -5,6 +5,7 @@ import json
 import requests
 from tmdbv3api import TMDb
 from tmdbv3api import Movie
+import redis 
 
 app = Flask(__name__)
 
