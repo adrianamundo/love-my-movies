@@ -3,7 +3,7 @@
 # OS Support also exists for jessie & stretch (slim and full).
 # See https://hub.docker.com/r/library/python/ for all supported Python
 # tags from Docker Hub.
-FROM python:alpine
+FROM python:3.6-alpine
 
 ENV DEVELOPER ="Adriana Mundo"
 # If you prefer miniconda:
@@ -12,7 +12,7 @@ ENV DEVELOPER ="Adriana Mundo"
 LABEL Name=love-my-movies Version=0.0.1
 EXPOSE 3000
 
-WORKDIR /app
+WORKDIR /love-my-movies
 ADD . /app
 
 # Using pip:
